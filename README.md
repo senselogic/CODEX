@@ -1494,7 +1494,7 @@ class ViewPropertiesPage
 
 *   Use :
     *   **unitless** values for line heights.
-    *   **rem** values for font sizes and all other static sizes.
+    *   **rem** values for font sizes and all other static sizes, using only multiples of 0.1rem or 0.25rem).
     *   **px** values only for tiny static sizes, like 1 or 2 pixels.
     *   **%**, **vh**, **vw**, **vmin** and **vmax** values for dynamic sizes.
     *   zero or one decimal in your sizes (0.9rem, 1.2vh), unless you absolutely need more precision (0.75rem, 1.25rem).
